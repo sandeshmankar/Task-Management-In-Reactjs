@@ -1,0 +1,64 @@
+body{
+    background-color:#FFF;
+}
+#app{
+    width: 500px;
+    margin:100px auto ;
+    background-color:#dddddd;
+    padding:20px;
+}
+.button-info{
+    background-color:#3498db;
+    padding:4px 6px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color:#FFF;
+    cursor:pointer;
+}
+.commentContainer{
+    background-color:#dddddd;
+    padding:4px 6px;
+    height:100%;
+    margin-bottom:20px;
+}
+.button-primary{
+    background-color:#3498db;
+    padding:6px 12px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor:pointer;
+    color:#FFF;
+}
+.button-danger{
+    background-color:darkred;
+    padding:6px 12px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor:pointer;
+    color:#FFF;
+    margin-left:10px ;
+}
+.button-success{
+    background-color:darkgreen;
+    padding:6px 12px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor:pointer;
+    color:#FFF;
+
+}
+.commentContainer textarea{
+    resize: none;
+    border:1px solid #333;
+    width: 100%;
+    height: 50px;
+    padding:6px 10px;
+}
+.commentText{
+    padding:6px 2px;
+    font-size: 14px;
+}
